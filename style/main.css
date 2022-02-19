@@ -1,3 +1,43 @@
+:root{  /* Variáveis em css*/
+    --vermelho: #E50914;
+    --preto: #141414;
+    --cinza: #AAA;
+    --branco: white;
+}
+
+*{ /*Padronizando propriedades especificas*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
-    background-color: aquamarine;
+    border: 1px solid green;
+    background-color: var(--preto);
+}
+/*Definindo o NAV*/
+
+header .container{
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+header nav a{
+    text-decoration: none;
+    color:var(--cinza);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1em;
+}
+header nav a:hover{
+    color: var(--branco);
+    transition: 0.5s;
 }
