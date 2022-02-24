@@ -4,8 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scaryflix</title>
+    <title>SCARYFLIX</title>
+    <link rel="shortcut icon" href="icone/icone.png" type="image/x-icon">
     <link rel="stylesheet" href="style/main.css"> <!--linkando css no html-->
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl.theme.default.min.css">
+
+
+
 </head>
 <body>
     <header> <!--Criando cabeçalho-->
@@ -25,7 +35,9 @@
                 <h3 class="titulo">SCREAM</h3>
                 <p class="descricao">Um grupo de jovens enfrenta um assassino mascarado que testa seus conhecimentos sobre filmes de terror.</p>
                 <div class="botoes">
+                   
                     <button role="button" class="botao"> 
+
                         ASSISTIR AGORA
                     </button>
                     <button role="button" class="botao">
@@ -36,9 +48,42 @@
         </div>
     </main>
 
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/01.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/09.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/02.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/10.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/03.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/04.jpg" alt="" srcset="">
+                    
+                </div>
+               
+        </div>
+    </div>
+   
 
-    <script src="https://kit.fontawesome.com/cbf8a568cb.js" crossorigin="anonymous"></script>
 
+
+
+
+
+
+
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
 
 </body>
 </html>

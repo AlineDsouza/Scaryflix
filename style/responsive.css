@@ -1,0 +1,27 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .botao{
+        margin-top: 5px;
+        width: 90px;
+        height: 50px;
+        padding: 20px 10px;
+        margin-right: 15px;
+        font-size: 0.5em;
+        border-radius: 0.2em;    
+    }
+    .filme-principal{
+        background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/scream.jfif');
+
+    }
+    .box-filme{
+        border-radius: 0.2em;
+    }
+}
+@media screen and (min-width:1000px) {
+    .descricao{
+        width: 50%;
+    }
+}
